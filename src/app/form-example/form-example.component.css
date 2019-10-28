@@ -5,3 +5,7 @@ form{
     margin-top: 75px;
 }
 
+
+.karmir input{
+    border: 3px solid red;
+}

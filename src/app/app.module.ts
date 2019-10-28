@@ -8,6 +8,8 @@ import { FormsModule } from '@angular/forms';
 
 import { FormExampleComponent } from './form-example/form-example.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AlertModule } from 'ngx-bootstrap';
+
 
 
 
@@ -21,7 +23,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    AlertModule.forRoot()
     
     
   ],
