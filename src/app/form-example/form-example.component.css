@@ -6,6 +6,22 @@ form{
 }
 
 
-.karmir input{
+.userKarmir input{
     border: 3px solid red;
 }
+.userKanach input{
+    border:3px solid green;
+}
+
+.passKarmir input{
+    border: 3px solid red;
+}
+.passKanach input{
+    border: 3px solid green;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
